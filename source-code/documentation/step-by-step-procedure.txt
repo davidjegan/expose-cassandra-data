@@ -1,0 +1,694 @@
+    1  java -version 
+    2  scala -version
+    3  wget https://github.com/sbt/sbt/releases/download/v1.0.4/sbt-1.0.4.tgz
+    4  ls
+    5  tar -xvzf scala-2.11.6.tgz
+    6  wget https://downloads.lightbend.com/scala/2.12.4/scala-2.12.4.tgz
+    7  tar -xvzf scala-2.12.4.tgz
+    8  su – 
+    9  sudo su
+   10  export PATH = $PATH:/usr/local/scala/bin
+   11  scala -version
+   12  cd /usr/local/bin/
+   13  ls
+   14  cd ..
+   15  pwd
+   16  cd bin/
+   17  export PATH = $PATH:/usr/local/bin
+   18  export PATH=$PATH:/usr/local/scala/bin
+   19  scala -version
+   20  sudo apt-get install openjdk-8-jre
+   21  sudo install openjdk-8-jre
+   22  sudo install --help
+   23  sudo yum install openjdk-8-jre
+   24  sudo yum install openjdk-7-jre
+   25  sudo yum update
+   26  scala -version
+   27  mkdir /opt/java && cd /opt/java
+   28  sudo mkdir /opt/java && cd /opt/java
+   29  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz"
+   30  # wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-i586.tar.gz"
+   31  ls
+   32  # wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-i586.tar.gz"
+   33  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz"
+   34  tar -zxvf jdk-8u45-linux-i586.tar.gz
+   35  spark
+   36  java -version
+   37  cd /opt/java/
+   38  ls
+   39  wget http://javadl.oracle.com/webapps/download/AutoDL?BundleId=227542_e758a0de34e24606bca991d704f6dcbf
+   40  sudo wget http://javadl.oracle.com/webapps/download/AutoDL?BundleId=227542_e758a0de34e24606bca991d704f6dcbf
+   41  ls
+   42  tar -zxvf AutoDL\?BundleId\=227542_e758a0de34e24606bca991d704f6dcbf 
+   43  sudo tar -zxvf AutoDL\?BundleId\=227542_e758a0de34e24606bca991d704f6dcbf 
+   44  ls
+   45  ls -l
+   46  cd jre1.8.0_151/
+   47  update-alternatives --install /usr/bin/java java /opt/java/jre1.8.0_151/bin/java 100
+   48  sudo update-alternatives --install /usr/bin/java java /opt/java/jre1.8.0_151/bin/java 100
+   49  # update-alternatives --config java
+   50  update-alternatives --config java
+   51  sudo update-alternatives --config java
+   52  sudo update-alternatives --install /usr/bin/javac javac /opt/java/jre1.8.0_151/bin/javac 100
+   53  sudo update-alternatives --config javac
+   54  sudo update-alternatives --install /usr/bin/jar jar /opt/java/jre1.8.0_151/bin/jar 100
+   55  sudo update-alternatives --config jar
+   56  export JAVA_HOME=/opt/java/jre1.8.0_151
+   57  export JRE_HOME=/opt/java/jre1.8.0_151/jre
+   58  export PATH=$PATH:/opt/java/jre1.8.0_151/bin:/opt/java/jre1.8.0_151/jre/bin
+   59  java -version
+   60  scala
+   61  sudo pip install pyspark
+   62  javac -version
+   63  su -c 'yum provides javac'
+   64  yum install java-devel
+   65  sudo su
+   66  history > commands_backup_Jan_03012018_171317.txt
+   67  sudo history > commands_backup_Jan_03012018_171317.txt
+   68  cd /home/ec2-user/
+   69  ls
+   70  history > commands_backup_Jan_03012018_171317.txt
+   71  ls
+   72  ls -l
+   73  cd ..
+   74  l
+   75  sls
+   76  sudo yum install httpd
+   77  cd /var/www/
+   78  ls
+   79  cd html
+   80  ls
+   81  vi index.html
+   82  sudo chmod 777 in
+   83  sudo chmod 777 index.html
+   84  sudo vi index.html
+   85  sudo chmod 777 index.html
+   86  sudo vi index.html
+   87  sudo service httpd start
+   88  cd /home/ec2-user/
+   89  ls
+   90  cd spark-cassandra/apache-cassandra-3.11.1
+   91  ls
+   92  mkdir gui
+   93  sudo mkdir gui
+   94  cd gui
+   95  wget https://storage.googleapis.com/google-code-archive-downloads/v2/apache-extras.org/cassandra-gui/cassandra-gui-0.7.1.zip
+   96  sudo wget https://storage.googleapis.com/google-code-archive-downloads/v2/apache-extras.org/cassandra-gui/cassandra-gui-0.7.1.zip
+   97  tar zxvf cassandra-gui-0.7.1.zip
+   98  zip cassandra-gui-0.7.1.zip 
+   99  unzip -v cassandra-gui-0.7.1.zip 
+  100  ls -l
+  101  ls
+  102  cd spark-cassandra/
+  103  cat commands_backup_Jan_03012018_171317.txt 
+  104  ls
+  105  cd apache-cassandra-3.11.1
+  106  ls
+  107  cd ..
+  108  cd spark-2.2.1-bin-hadoop2.7
+  109  ls
+  110  ls -la
+  111  cd bin/
+  112  ls
+  113  spark-shell
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd ..
+  118  ls
+  119  tar zxvf apache-cassandra-3.11.1-bin.tar.gz 
+  120  sudo tar zxvf apache-cassandra-3.11.1-bin.tar.gz 
+  121  ls
+  122  cd apache-cassandra-3.11.1
+  123  ls
+  124  cd bin/
+  125  l
+  126  sls
+  127  ls
+  128  cassandra
+  129  cassandra -f -R
+  130  cd ..
+  131  ls
+  132  /bin/cassandra -f 
+  133  ./bin/cassandra -f 
+  134  sudo ./bin/cassandra -f 
+  135  sudo ./bin/cassandra -f -R
+  136  ls
+  137  ls -l
+  138  cd ..
+  139  ls
+  140  cd ..
+  141  ls
+  142  mkdir Java
+  143  cd Java/
+  144  ls
+  145  vi helloworld.java
+  146  vi helloworld.java 
+  147  javac helloworld.java 
+  148  ls
+  149  cd ..
+  150  ls
+  151  cd ec2-user/
+  152  ls
+  153  cd spark-cassandra/
+  154  ls
+  155  cd apache-cassandra-3.11.1
+  156  ls
+  157  cd bin/
+  158  ls
+  159  cq
+  160  cqlsh
+  161  sh cqlsh
+  162  ls
+  163  scala
+  164  java -version.
+  165  java -version
+  166  cd $CASSANDRA_HOME
+  167  ls
+  168  cd s
+  169  cd spark-cassandra/
+  170  ls
+  171  ls -l
+  172  cd apache-cassandra-3.11.1
+  173  ls
+  174  ls -la
+  175  cd ..
+  176  ./bin/cassandra -f 
+  177  pwd
+  178  ls
+  179  cd spark-2.2.1-bin-hadoop2.7
+  180  ls
+  181  ls -l
+  182  ./bin/cassandra -f 
+  183  cd ..
+  184  ls
+  185  cd ..
+  186  ls
+  187  cat commands_backup_Jan_03012018_171317.txt 
+  188  pwd
+  189  ls
+  190  cd spark-cassandra/
+  191  ls
+  192  cat commands_backup_Jan_03012018_171317.txt 
+  193  sudo su
+  194  ls
+  195  cat commands_backup_Jan_03012018_171317.txt 
+  196  ls
+  197  cd apache-cassandra-3.11.1
+  198  ls
+  199  cd ..
+  200  cat spark-2.2.1-bin-hadoop2.7
+  201  cd spark-2.2.1-bin-hadoop2.7
+  202  ls
+  203  cd ..
+  204  cd /etc/cassandra
+  205  cd /etc
+  206  ls
+  207  cd ..
+  208  ls
+  209  cat ~/.bashrc
+  210  whereis cassandra
+  211  find cassandra
+  212  find cas
+  213  cd ..
+  214  ls
+  215  cd home/
+  216  ls
+  217  cd hadoop/
+  218  ls
+  219  cd hadoop/
+  220  sudo su
+  221  ls
+  222  cd /root/cassandra/bin/
+  223  sudo cd /root/cassandra/bin/
+  224  sudo cd /root/cassandra/
+  225  cd /root/
+  226  sudo cd /root
+  227  cd ec2-user/
+  228  sudo su
+  229  pwd
+  230  ls
+  231  cd spark-cassandra/
+  232  ls
+  233  cd apache-cassandra-3.11.1
+  234  ls
+  235  sudo sh ~/cassandra/bin/cassandra
+  236  sh /bin/cassandra
+  237  cd bin/
+  238  ls
+  239  sh cassandra
+  240  sh cqlsh
+  241  127.0.0.1:9042
+  242  sh cqlsh
+  243  sh cassandra
+  244  sudo sh cassandra
+  245  sudo sh cassandra -f -R
+  246  sh cqlsh
+  247  sudo sh cassandra
+  248  sudo sh cassandra -f -R
+  249  ls
+  250  cd spark-cassandra/
+  251  ls
+  252  cd apache-cassandra-3.11.1
+  253  ls
+  254  cd bin/
+  255  sh cqlsh
+  256  sh cassandra
+  257  sudo sh cassandra
+  258  sudo sh cassandra -R -f
+  259  sh cqlsh
+  260  sudo sh cassandra -R -f
+  261  cd spark-cassandra/
+  262  cd apache-cassandra-3.11.1/bin/
+  263   sudo sh cassandra -R -f
+  264  ls
+  265  sudo service httpd start
+  266  nodetool tablehistograms davekeyspace1 davetable
+  267  sudo yum install nodetool
+  268  cd spark-cassandra/apache-cassandra-3.11.1
+  269  ls
+  270  cd bin/
+  271  nodetool
+  272  ls
+  273  sh nodetool
+  274  nodetool 
+  275  ./nodetool
+  276  nodetool help version
+  277  ./nodetool help version
+  278  ./nodetool status
+  279  ./nodetool getsstables data account 880
+  280  ./nodetool getsstables davetable
+  281  ./nodetool getsstables davetable 880
+  282  pwd
+  283  ls
+  284  mkdir visuals
+  285  sudo mkdir gui
+  286  cd gui
+  287  ls
+  288  sudo vi csvfile.cql
+  289  ls
+  290  ls -l
+  291  cd ..
+  292  ls
+  293  sudo vi csvfile.cql
+  294  ls
+  295  cd spark-cassandra/apache-cassandra-3.11.1/bin/
+  296  ls
+  297  sh cqlsh
+  298  ls
+  299  sh cqlsh
+  300  ls
+  301  cd spark-cassandra/apache-cassandra-3.11.1
+  302  ls
+  303  cd bin/
+  304  sh cqlsh
+  305  cqlsh -e "SELECT * from davetable" > csvfile.cql
+  306  sudo cqlsh -e "SELECT * from davetable" > csvfile.cql
+  307  sudo cqlsh -e "SELECT * from davetable" > csvfile.csv
+  308  ls -la
+  309  sudo su
+  310  cd spark-cassandra/
+  311  ls
+  312  cd apache-cassandra-3.11.1
+  313  ls
+  314  cd bin/
+  315  ;s
+  316  ls
+  317  sh cassandra -f -R
+  318  sudo sh cassandra -f -R
+  319  cd spark-cassandra/apache-cassandra-3.11.1bin
+  320  cd spark-cassandra/apache-cassandra-3.11.1/bin/
+  321  ls
+  322  sh cqlsh
+  323  cd ..
+  324  ls
+  325  mkdir Java8
+  326  sudo mkdir Java8
+  327  cd Java8/
+  328  wget https://docs.oracle.com/javase/8/docs/technotes/guides/install/linux_jdk.html#BJFJJEFG
+  329  cd /opt/java
+  330  ls
+  331  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz"
+  332  sudo wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz"
+  333  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz"
+  334  sudo wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz"
+  335  tar -zxvf jdk-8u151-linux-x64.tar.gz 
+  336  sudo tar -zxvf jdk-8u151-linux-x64.tar.gz 
+  337  cd jdk1.8.0_151/
+  338  update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_151/bin/java 100
+  339  sudo update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_151/bin/java 100
+  340  sudo update-alternatives --config java
+  341  update-alternatives --install /usr/bin/javac javac /opt/java/jdk1.8.0_151/bin/javac 100
+  342  sudo update-alternatives --install /usr/bin/javac javac /opt/java/jdk1.8.0_151/bin/javac 100
+  343  sudo update-alternatives --config javac
+  344  sudo update-alternatives --install /usr/bin/jar jar /opt/java/jdk1.8.0_151/bin/jar 100
+  345  sudo mkdir /usr/bin/jar
+  346  sudo update-alternatives --install /usr/bin/jar jar /opt/java/jdk1.8.0_151/bin/jar 100
+  347  export JAVA_HOME=/opt/java/jdk1.8.0_151/
+  348  export JRE_HOME=/opt/java/jdk1.8.0_151/jre 
+  349  cd spark-cassandra/apache-cassandra-3.11.1/bin/
+  350  sudo sh cassandra -f -R
+  351  sh cqlsh
+  352  ps aux | grep cassandra
+  353  java -version
+  354  javac
+  355  cd Java/
+  356  ls
+  357  javac helloworld.java 
+  358  ls -l
+  359  java helloworld
+  360  ls -l
+  361  sudo mkdir cassandra-write-item
+  362  cd cassandra-write-item/
+  363  sudo chkconfig httpd on
+  364  ls -l
+  365  vi Create_Data.java
+  366  sudo vi Create_Data.java
+  367  cat Create_Data.java 
+  368  javac Create_Data.java 
+  369  cd spark-cassandra/apache-cassandra-3.11.1/bin/
+  370  sudo sh cassandra -f -R
+  371  npm install cassandra-driver
+  372  curl --silent --location https://rpm.nodesource.com/setup_9.x | sudo bash -
+  373  sudo yum -y install nodejs
+  374  sudo yum install gcc-c++ make
+  375  npm install cassandra-driver
+  376  npm install async
+  377  ls
+  378  pwd
+  379  sudo mkdir node
+  380  cd node
+  381  ls
+  382  vi main.js
+  383  sudo vi main.js
+  384  ls
+  385  ls -l
+  386  sudo chmod 666 main.js 
+  387  ls -l
+  388  vi main.js 
+  389  node main.js 
+  390  vi main.js 
+  391  node main.js 
+  392  vi main.js 
+  393  node main.js 
+  394  vi main.js 
+  395  node main.js 
+  396  vi main.js 
+  397  vi main-0.js
+  398  vi main.js 
+  399  sudo rm main.js 
+  400  sudo vi main.js
+  401  vi main.js 
+  402  sudo chmod 666 main.js 
+  403  vi main.js 
+  404  sudo rm main.js 
+  405  sudo chmod 666 main.js 
+  406  sudo vi main.js
+  407  node main.js 
+  408  sudo chmod 666 main.js 
+  409  vi main.js 
+  410  sudo rm main.js 
+  411  sudo vi main.js
+  412  sudo chmod 666 main.js 
+  413  node main.js 
+  414  vi main.js
+  415  node main.js 
+  416  vi main.js
+  417  node main.js 
+  418  vi main.js 
+  419  node main.js 
+  420  vi main.js 
+  421  node main.js 
+  422  vi main.js 
+  423  node main.js 
+  424  vi main.js 
+  425  node main.js 
+  426  q
+  427  vi main.js 
+  428  cd spark-cassandra/apache-cassandra-3.11.1/bin/
+  429  sh cqlsh
+  430  cd /var/www/html/
+  431  ls
+  432  vi index.html 
+  433  pwd
+  434  ls
+  435  vi index.html 
+  436  sudo service httpd start
+  437  ls
+  438  sudo cp nodejs_api/ /var/www/html/
+  439  cd /var/www/html/
+  440  ls
+  441  cd ..
+  442  ls
+  443  cd ..
+  444  ls
+  445  cd home/
+  446  ls
+  447  cd ec2-user/
+  448  ls
+  449  cd node
+  450  ls
+  451  node main.js 
+  452  sudo cp main.js /var/www/html/server.js
+  453  cd /var/www/html/server.js 
+  454  cd /var/www/html/
+  455  ls -l
+  456  vi server.js 
+  457  sudo vi server.js 
+  458  cat server.js 
+  459  node server.js 
+  460  npm install cassandra-driver
+  461  sudo npm install cassandra-driver
+  462  cat server.js 
+  463  sudo npm install async
+  464  node server.js 
+  465  sudo vi server.js 
+  466  node server.js 
+  467  npm install async
+  468  sudo vi server.js 
+  469  node server.js 
+  470  npm install http
+  471  sudo npm install http
+  472  ls
+  473  sudo vi main.js
+  474  node main.js 
+  475  clear
+  476  node main.js 
+  477  npm init
+  478  ls
+  479  ls -l
+  480  sudo rm package.json package-lock.json 
+  481  ls
+  482  cd node
+  483  ls
+  484  npm init
+  485  ls
+  486  cd ..
+  487  ls -la
+  488  sudo chmod 666 node
+  489  ls -la
+  490  sudo chmod 777 node
+  491  ls -la
+  492  sudo chmod 775 node
+  493  ls -la
+  494  cd node
+  495  ls
+  496  ls -la
+  497  sudo chmod 775 main.js 
+  498  ls -la
+  499  npm init
+  500  sudo npm init
+  501  ls -l
+  502  sudo npm install --save express mongodb@2.2.16 body-parser
+  503  npm install --save-dev nodemon
+  504  sudo npm install --save-dev nodemon
+  505  vi package.json 
+  506  cd ..
+  507  mkdir nodejs_api
+  508  cd node
+  509  cd ..
+  510  cd nodejs_api/
+  511  ls
+  512  npm init
+  513  npm install --save express mongodb@2.2.16 body-parser
+  514  npm install --save-dev nodemon
+  515  ls
+  516  vi package.json 
+  517  vi server.js
+  518  node server.js 
+  519  pm run dev
+  520  npm run dev
+  521  ls
+  522  mkdir app
+  523  cd app/
+  524  mkdir routes
+  525  cd routes/
+  526  touch index.js
+  527  touch note_routes.js
+  528  cat note_routes.js 
+  529  vi note_routes.js 
+  530  ls
+  531  vi index.js 
+  532  ls -la
+  533  vi note_routes.js 
+  534  cd ..
+  535  ls
+  536  cd ..
+  537  ls
+  538  vi server.js 
+  539  cd app/
+  540  ls
+  541  cd routes/
+  542  ls
+  543  vi index.js 
+  544  vi note_routes.js 
+  545  node note_routes.js 
+  546  cat note_routes.js 
+  547  vi note_routes.js 
+  548  cd ..
+  549  cd node
+  550  s
+  551  ls
+  552  ls -la
+  553  node main.js 
+  554  pwd
+  555  cd nodejs_api/
+  556  ls
+  557  vi server.js 
+  558  node server.js 
+  559  cd ..
+  560  cd nd
+  561  cd node
+  562  ls
+  563  cat main.js 
+  564  node main.js 
+  565  pwd
+  566  ped
+  567  cd ..
+  568  cd nodejs_api/
+  569  ls
+  570  node server.js 
+  571  cat server.js 
+  572  cd app/
+  573  ls
+  574  cd routes/
+  575  ls
+  576  cat index.js 
+  577  cat note_routes.js 
+  578  ls
+  579  ls -l
+  580  cd node
+  581  ls
+  582  node main.js 
+  583  cat main.js 
+  584  cd ..
+  585  cd spark-cassandra/apache-cassandra-3.11.1/bin/
+  586  sudo sh cassandra -f -R
+  587  sudo service httpd stop
+  588  cd node
+  589  ls
+  590  cat main.js 
+  591  cd ..
+  592  ls
+  593  cd nodejs_api/
+  594  ls
+  595  ls -l
+  596  cat server.js 
+  597  node server.js 
+  598  cat server.js 
+  599  vi server.js 
+  600  node server.js 
+  601  vi server.js 
+  602  node server.js 
+  603  curl localhost
+  604  curl localhost:9001
+  605  curl localhost:8000
+  606  curl 127.0.0.1
+  607  curl 127.0.0.1:8000
+  608  curl 127.0.0.1:8000/notes
+  609  cd ..
+  610  ls
+  611  mkdir expressjs
+  612  cd expressjs/
+  613  vi main.js
+  614  npm --version
+  615  node --version
+  616  npm init
+  617  npm install --save express
+  618  ls node_modules #(dir node_modules for windows)
+  619  npm install -g nodemon
+  620  sudo npm install -g nodemon
+  621  cat main.js 
+  622  nodemon index.js
+  623  sudo npm install -g async
+  624  sudo npm install -g cassandra-driver
+  625  vi main-v0.js
+  626  ls
+  627  nodemon index.js
+  628  var express = require('express');
+  629  var app = express();
+  630  var cassandra = require('cassandra-driver');
+  631  var async = require('async');
+  632  var client = new cassandra.Client({contactPoints: ['127.0.0.1'], keyspace: 'davekeyspace1'});
+  633  app.get('/', function(req, res){
+  634  async.series([
+  635      function (callback) {
+  636          client.execute("SELECT * from davetable", function (err, result) {
+  637                  if ( result.rows.length > 0 ) {
+  638                  console.log(JSON.stringify(result.rows));
+  639                    var user = result.rows[0];
+  640                  } else {
+  641                      console.log("No results");
+  642                  }
+  643              }
+  644              callback(err, null);
+  645          });
+  646      }
+  647  ], function (err, results) {
+  648      process.exit();
+  649  });
+  650  app.listen(3000);
+  651  clear
+  652  node main-v0.js 
+  653  killall -9 node
+  654  node main-v0.js 
+  655  ls
+  656  cat main
+  657  cat main.js 
+  658  cat main-v0.js 
+  659  cat main.js 
+  660  vi main-v0.js 
+  661  node main-v0.js 
+  662  nodemon index.js
+  663  node main-v0.js 
+  664  ls -l
+  665  cp main.js main-backup-of-helloworld.js
+  666  ls -la
+  667  cat main-backup-of-helloworld.js 
+  668  cp main-v0.js main.js 
+  669  nodemon index.js
+  670  cat main.js 
+  671  nodemon index.js
+  672  ls
+  673  ls -la
+  674  cat main.js 
+  675  vi main.js 
+  676  nodemon index.js
+  677  nodemon --debug index.js
+  678  nodemon --inspect index.js
+  679  nodemon --inspect main.js
+  680  npm install
+  681  nodemon --inspect main.js
+  682  node main.js
+  683  nodemon --inspect main.js
+  684  cat main.js
+  685  pwd
+  686  ls -la
+  687  cat main-backup-of-helloworld.js 
+  688  cat main-v0.js 
+  689  vi main.js 
+  690  node main
+  691  node main.js
+  692  vi main.js 
+  693  node main.js
+  694  history > commands-for-express.txt
